@@ -1,5 +1,6 @@
 # Loan-Approval-Prediction-Project
 This project aims to analyze loan application data to identify patterns and build machine learning models that predict loan approval status based on applicant demographics and financial information.
+
 ## Project Structure
 
 The project is divided into three main notebooks:
@@ -7,6 +8,11 @@ The project is divided into three main notebooks:
 1. **`1_EDA.ipynb`**: Focused on data cleaning and exploratory data analysis to understand the dataset.
 2. **`2_loan_approval_using_decision_tree.ipynb`**: Implements a Decision Tree classifier to predict loan status.
 3. **`3_loan_approval_using_logictic_regression.ipynb`**: Implements a Logistic Regression model for the same prediction task.
+
+## Data source 
+
+* The dataset is from kaggle called "Loan Approval Classification Dataset"
+* link: https://www.kaggle.com/datasets/taweilo/loan-approval-classification-data
 
 ## Dataset Overview
 
@@ -44,4 +50,4 @@ Two models were evaluated for their ability to predict loan approval ("Yes" or "
 
 ## Conclusion
 
-The **Decision Tree** model outperformed Logistic Regression in terms of overall accuracy (92% vs 90%) and precision for approved loans. However, the **Logistic Regression** model provided a more balanced precision and recall (both 0.78) for the approved class.
+The **Decision Tree** model outperformed Logistic Regression in terms of overall accuracy (92% vs 90%) and precision for approved loans.

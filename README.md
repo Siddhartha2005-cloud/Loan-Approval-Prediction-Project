@@ -29,9 +29,6 @@ The analysis uses a dataset of 45,000 loan applications with the following chara
 * Bachelors have the highest number of both accepted and rejected loan applications.
 * Masters degree holders have the highest overall loan acceptance rate.
 
-
-* **Demographics**: The average applicant age is approximately 27.8 years.
-
 ## Model Performance
 
 Two models were evaluated for their ability to predict loan approval ("Yes" or "No"):

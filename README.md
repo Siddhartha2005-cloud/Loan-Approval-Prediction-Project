@@ -8,6 +8,7 @@ The project is divided into three main notebooks:
 1. **`1_EDA.ipynb`**: Focused on data cleaning and exploratory data analysis to understand the dataset.
 2. **`2_loan_approval_using_decision_tree.ipynb`**: Implements a Decision Tree classifier to predict loan status.
 3. **`3_loan_approval_using_logictic_regression.ipynb`**: Implements a Logistic Regression model for the same prediction task.
+4. **`4_loan_approval_using_random_forest.ipynb`**: Implements a random forest model for the same prediction task.
 
 ## Data source 
 
@@ -31,7 +32,7 @@ The analysis uses a dataset of 45,000 loan applications with the following chara
 
 ## Model Performance
 
-Two models were evaluated for their ability to predict loan approval ("Yes" or "No"):
+Three models were evaluated for their ability to predict loan approval ("Yes" or "No"):
 
 ### Decision Tree Model
 
@@ -45,6 +46,12 @@ Two models were evaluated for their ability to predict loan approval ("Yes" or "
 * **Accuracy**: 90%.
 * **Performance (Approved Class)**: Achieved a precision of 0.78 and a recall of 0.78, resulting in an F1-score of 0.78.
 
+### Random Forest Model
+
+* **Configuration**: Trained using default hyperparameters.
+* **Accuracy**: 93%.
+* **Performance (Approved Class)**: Achieved a precision of 0.89 and a recall of 0.77, resulting in an F1-score of 0.83.
+
 ## Conclusion
 
-The **Decision Tree** model outperformed Logistic Regression in terms of overall accuracy (92% vs 90%) and precision for approved loans.
+The **Random forest** model outperformed other two models in terms of overall accuracy and precision for approved loans
